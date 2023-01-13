@@ -1,0 +1,30 @@
+
+.characterCardDesign {
+
+    height: 15em;
+    width: 10em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1em;
+
+    background-color: white;
+
+    transition: 0.5s;
+}
+
+.characterCardDesign:hover {
+
+    background-color: gold;
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.avatarRickMorty {
+
+    height: 10em;
+}
